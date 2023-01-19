@@ -13,7 +13,7 @@ FillArray(matrix);
 Console.WriteLine("Задан массив:");
 PrintMatrix(matrix);
 
-void PrintMatrix(int[,] matr)              // Печать матрицы
+void PrintMatrix(int[,] matr)              
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
@@ -25,7 +25,7 @@ void PrintMatrix(int[,] matr)              // Печать матрицы
     }
 }
 
-void FillArray(int[,] matr)                      // Заполнение матрицы рандомными числами [1, 10)
+void FillArray(int[,] matr)                     
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
