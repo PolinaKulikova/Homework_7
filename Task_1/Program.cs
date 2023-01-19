@@ -18,13 +18,13 @@ void PrintMatrix(double[,] matr)              // Печать матрицы
     }
 }
 
-void FillArray(double[,] matr)                      // Заполнение матрицы рандомными числами [1, 10)
+void FillArray(double[,] matr)                      // Заполнение матрицы рандомными числами
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            matr[i, j] = Convert.ToDouble(new Random().Next(-100, 100)) / 10 ;             // 
+            matr[i, j] = Convert.ToDouble(new Random().Next(-100, 100)) / 10 ;             
         }
     }
 }
